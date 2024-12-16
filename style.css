@@ -1,9 +1,10 @@
 body {
     font-family: Arial, sans-serif;
-    line-height: 1.6;
+    line-height: 1.8; /* Slightly increased line height for better readability */
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
+    font-size: 18px; /* Increased the base font size */
 }
 
 header {
@@ -24,6 +25,7 @@ nav a {
     margin: 0 15px;
     text-decoration: none;
     font-weight: bold;
+    font-size: 18px; /* Increased font size for navigation links */
 }
 
 nav a:hover {
@@ -43,20 +45,20 @@ footer {
     padding: 10px;
     background-color: #333;
     color: white;
+    font-size: 16px; /* Increased font size for footer text */
 }
 
 h2 {
     color: #333;
+    font-size: 24px; /* Increased font size for section headings */
 }
 
-
 img {
-    max-width: 50%; 
-    height: auto;  
+    max-width: 50%;
+    height: auto;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
-
 
 .image-section {
     text-align: center;
